@@ -1,0 +1,40 @@
+.clock{
+    display:flex;
+    justify-content:center;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    align-items: center;
+}
+.seconds{
+    border: solid 3px rgb(0, 0, 0) ;
+    border-radius:5px;
+    transform-origin: bottom;
+    height: 150%;
+}
+.hours{
+    display: flex;
+    border: solid 3px black ;
+    border-radius:10px;
+    align-items:flex-end;
+    margin: 0;
+    margin-bottom: 40% ;
+    height: 45%;
+    width: 0.5;
+    transform-origin: bottom; 
+}
+.minute{
+    border: solid 3px black ;
+    border-radius:10px;
+    display: flex;
+    margin-top: 30% ;
+    height: 150%;
+    width: 0.25;
+    transform-origin: bottom;
+    align-items:flex-end 
+}
+.img-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
